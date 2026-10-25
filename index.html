@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benjamin Banansos — eCommerce Solutions Architect & Technical Product Owner</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    /* Clean custom styling */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(156, 163, 175, 0.4); border-radius: 9999px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(156, 163, 175, 0.7); }
+    .arch-line { background: linear-gradient(90deg, #6366f1, #f59e0b); }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen selection:bg-indigo-500 selection:text-white">
+
+  <!-- TOP BAR -->
+  <div class="bg-indigo-950/60 border-b border-indigo-500/20 py-2 px-4 text-center text-xs font-medium text-indigo-300">
+    <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse mr-2"></span>
+    Based in Toronto, ON, Canada · Full Canadian Work Authorization · Open to Remote & Hybrid Roles
+  </div>
+
+  <!-- NAVIGATION -->
+  <header class="sticky top-0 z-40 bg-slate-950/85 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-amber-500 flex items-center justify-center font-bold text-white text-base shadow-lg shadow-indigo-500/25">
+          BB
+        </div>
+        <div>
+          <span class="font-bold text-base sm:text-lg tracking-tight block leading-tight text-white">Benjamin Banansos</span>
+          <span class="text-xs text-slate-400 font-mono">Solutions Architect & Technical PO</span>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-400">
+        <a href="#systems" class="hover:text-white transition-colors">Delivered Systems</a>
+        <a href="#architecture" class="hover:text-white transition-colors">Architecture & APIs</a>
+        <a href="#governance" class="hover:text-white transition-colors">Governance & Track Record</a>
+        <a href="#recruiter" class="hover:text-white transition-colors">Recruiter Brief</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="mailto:benjaminbanansos@gmail.com" class="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold tracking-wide transition-all shadow-md shadow-indigo-600/30">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative pt-12 pb-16 md:pt-20 md:pb-24 border-b border-slate-800 overflow-hidden">
+    <!-- Ambient background glow -->
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute top-1/3 right-10 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono font-medium bg-slate-900 border border-slate-700 text-slate-300 mb-6">
+          <span class="text-amber-400">✦</span> 12 Production Systems Delivered · 4+ Years Experience
+        </div>
+        
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight text-white mb-6">
+          I design, integrate, and ship <span class="bg-gradient-to-r from-amber-400 via-indigo-400 to-purple-400 bg-clip-text text-transparent">eCommerce platforms & data flows</span> that work in the real world.
+        </h1>
+
+        <p class="text-lg text-slate-300 leading-relaxed mb-8">
+          A client-facing Technical Product Owner and Solutions Architect bridging the gap between non-technical business owners, third-party APIs (payment, 3PL, CDNs), and software engineering teams.
+        </p>
+
+        <!-- Proof Badges -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 border-t border-slate-800/80">
+          <div class="p-3.5 rounded-xl bg-slate-900/70 border border-slate-800">
+            <div class="text-2xl font-bold text-white">12</div>
+            <div class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-0.5">Live Systems Delivered</div>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-900/70 border border-slate-800">
+            <div class="text-2xl font-bold text-amber-400">4.4 ★</div>
+            <div class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-0.5">227+ Google Reviews</div>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-900/70 border border-slate-800">
+            <div class="text-2xl font-bold text-indigo-400">10,000+</div>
+            <div class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-0.5">Pricing Permutations</div>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-900/70 border border-slate-800">
+            <div class="text-2xl font-bold text-emerald-400">Zero</div>
+            <div class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mt-0.5">Cutover Downtime</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECRUITER FAST-TRACK SUMMARY -->
+  <section id="recruiter" class="py-10 bg-slate-900/50 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="p-6 rounded-2xl bg-indigo-950/20 border border-indigo-500/20 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <div>
+          <span class="text-xs font-mono font-semibold uppercase tracking-wider text-indigo-400">Recruiter Quick Facts</span>
+          <h2 class="text-xl font-bold text-white mt-1">Why I fit the eCommerce Solutions & TPO Shortlist</h2>
+          <p class="text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl">
+            Comfortable reading API docs and designing data sync rules without the ego of a pure coder. Proven contract delivery under pressure with real client reviews and institutional board governance.
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-2 text-xs font-mono text-slate-300">
+          <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-700">Full Canadian Work Authorization</span>
+          <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-700">Toronto / Remote</span>
+          <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-700">Target: $85k–$105k CAD</span>
+          <span class="px-3 py-1.5 rounded-lg bg-indigo-600/20 text-indigo-300 border border-indigo-500/30">Available Immediately</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SYSTEMS CATALOG (FILTERABLE) -->
+  <section id="systems" class="py-16 md:py-24 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header & Filter Controls -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+        <div>
+          <span class="text-xs font-mono font-semibold uppercase tracking-wider text-amber-400">Verified Systems Portfolio</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mt-1">12 Real Platforms & Implementations</h2>
+          <p class="text-slate-400 text-sm mt-1 max-w-xl">
+            Click on any platform card to inspect the real-world business challenge, technical architecture, and verified metrics.
+          </p>
+        </div>
+
+        <div class="flex flex-wrap gap-2 p-1 rounded-xl bg-slate-900 border border-slate-800 text-xs font-medium">
+          <button onclick="filterCatalog('all')" class="cat-btn active px-3 py-1.5 rounded-lg bg-indigo-600 text-white transition-all">All (12)</button>
+          <button onclick="filterCatalog('ecommerce')" class="cat-btn px-3 py-1.5 rounded-lg text-slate-400 hover:text-white transition-all">eCommerce & Custom Engines</button>
+          <button onclick="filterCatalog('hospitality')" class="cat-btn px-3 py-1.5 rounded-lg text-slate-400 hover:text-white transition-all">Hospitality & Restaurants</button>
+          <button onclick="filterCatalog('commercial')" class="cat-btn px-3 py-1.5 rounded-lg text-slate-400 hover:text-white transition-all">CleanTech, Health & Governance</button>
+        </div>
+      </div>
+
+      <!-- Systems Grid -->
+      <div id="systems-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Rendered by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE SYSTEM DETAIL MODAL -->
+  <div id="detail-modal" class="fixed inset-0 z-50 hidden bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative">
+      <button onclick="closeModal()" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-800 border border-slate-700 text-slate-400 hover:text-white flex items-center justify-center transition-colors">
+        ✕
+      </button>
+      <div id="modal-body" class="p-6 sm:p-8">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ARCHITECTURE & INTEGRATION DEEP DIVE -->
+  <section id="architecture" class="py-16 md:py-24 border-b border-slate-800 bg-slate-950/40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-12">
+        <span class="text-xs font-mono font-semibold uppercase tracking-wider text-indigo-400">Technical Capability</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mt-1">How I Architect & Integrate Systems</h2>
+        <p class="text-slate-400 mt-2 text-sm sm:text-base">
+          Proven comfort reviewing API schemas, designing data mappings, and troubleshooting network or authentication friction.
+        </p>
+      </div>
+
+      <!-- Architecture Showcase Card (Janal.ca Architecture Model) -->
+      <div class="p-6 sm:p-8 rounded-2xl bg-slate-900 border border-slate-800 mb-10">
+        <div class="flex items-center justify-between gap-4 mb-6 pb-4 border-b border-slate-800">
+          <div>
+            <span class="text-xs font-mono uppercase tracking-wider text-amber-400 font-semibold">Flagship Architecture Case</span>
+            <h3 class="text-xl font-bold text-white mt-0.5">Janal.ca Custom E-Commerce Engine (Shades4U Inc.)</h3>
+          </div>
+          <span class="px-2.5 py-1 rounded-md text-xs font-mono bg-indigo-500/10 text-indigo-300 border border-indigo-500/20">AWS Cloud</span>
+        </div>
+
+        <!-- Visual Flow Diagram -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-center text-xs font-mono mb-6">
+          <div class="p-4 rounded-xl bg-slate-950 border border-slate-800">
+            <div class="text-amber-400 font-bold mb-1">Frontend Layer</div>
+            <div class="text-white font-semibold">Vue3 / Nuxt Storefront</div>
+            <div class="text-[11px] text-slate-400 mt-2">Dynamic sizing input (1/8th in), fabric swatches, instant price recomputation.</div>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-950 border border-slate-800">
+            <div class="text-indigo-400 font-bold mb-1">Backend & Math</div>
+            <div class="text-white font-semibold">Django & PostgreSQL</div>
+            <div class="text-[11px] text-slate-400 mt-2">10,000+ square-inch pricing permutations, provincial tax matrices, cart limits.</div>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-950 border border-slate-800">
+            <div class="text-emerald-400 font-bold mb-1">Payment Integration</div>
+            <div class="text-white font-semibold">Converge HPP Gateway</div>
+            <div class="text-[11px] text-slate-400 mt-2">Resolved 401 barriers via static IP whitelisting & SSL certificate provisioning.</div>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-950 border border-slate-800">
+            <div class="text-purple-400 font-bold mb-1">Cloud Infrastructure</div>
+            <div class="text-white font-semibold">AWS EC2, S3 & SES</div>
+            <div class="text-[11px] text-slate-400 mt-2">Reliable media hosting, automated order confirmation emails, and DNS routing.</div>
+          </div>
+        </div>
+
+        <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+          <strong>Product Owner Impact:</strong> Ran 15 agile sprints, authored strict Acceptance Criteria to prevent irrational numbers from improper fractions, and translated complex technical blockers directly into business steps for executive stakeholders.
+        </p>
+      </div>
+
+      <!-- Skills Pillars -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
+          <div class="text-2xl mb-3">🛒</div>
+          <h4 class="font-bold text-white text-base mb-1">eCommerce Platforms</h4>
+          <p class="text-xs text-slate-400 mb-4">Evaluating native features vs. apps vs. custom development.</p>
+          <div class="flex flex-wrap gap-1.5 text-xs font-mono text-slate-300">
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">Shopify Plus</span>
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">WooCommerce</span>
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">Checkout Extensibility</span>
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">Metafields & Flow</span>
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">Decoupled Stores</span>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
+          <div class="text-2xl mb-3">🔌</div>
+          <h4 class="font-bold text-white text-base mb-1">APIs & Cloud Plumbing</h4>
+          <p class="text-xs text-slate-400 mb-4">Reading API docs, payload schemas, and webhook sync rules.</p>
+          <div class="flex flex-wrap gap-1.5 text-xs font-mono text-slate-300">
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">REST & Webhooks</span>
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">Converge HPP</span>
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">Shipnerd 3PL</span>
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">Cloudinary CDN</span>
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">MongoDB / PostgreSQL</span>
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">DNS TXT / A-Records</span>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
+          <div class="text-2xl mb-3">📋</div>
+          <h4 class="font-bold text-white text-base mb-1">Delivery & Governance</h4>
+          <p class="text-xs text-slate-400 mb-4">Protecting engineering focus through rigorous definition of ready.</p>
+          <div class="flex flex-wrap gap-1.5 text-xs font-mono text-slate-300">
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">Functional Specs</span>
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">Acceptance Criteria</span>
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">Definition of Ready (DoR)</span>
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">Bug Triage & UAT</span>
+            <span class="px-2 py-0.5 rounded bg-slate-950 border border-slate-800">Board Governance</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GOVERNANCE & CAREER TIMELINE -->
+  <section id="governance" class="py-16 md:py-24 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-12">
+        <span class="text-xs font-mono font-semibold uppercase tracking-wider text-emerald-400">Track Record & Responsibility</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mt-1">Professional Experience</h2>
+        <p class="text-slate-400 mt-2 text-sm sm:text-base">
+          Proven commercial responsibility, financial auditing, and institutional trust in Canada.
+        </p>
+      </div>
+
+      <div class="space-y-6">
+        
+        <!-- Experience 1 -->
+        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col md:flex-row items-start justify-between gap-4">
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <span class="px-2.5 py-0.5 rounded text-xs font-mono bg-amber-500/10 text-amber-400 border border-amber-500/20 font-semibold">2022 – Present</span>
+              <span class="text-xs text-slate-400 font-mono">Independent Consulting (Go Digitally)</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">eCommerce Solutions Consultant & Technical Delivery Lead</h3>
+            <p class="text-xs sm:text-sm text-slate-300 mt-2 max-w-2xl leading-relaxed">
+              Directed technical delivery for 15+ external e-commerce, web, and portal platforms. 
+              Served under contract as <strong>Independent Product Owner for Shades4U Inc. (Janal.ca)</strong>, managing 15 agile sprints, dynamic pricing logic, and cloud migration to AWS.
+            </p>
+          </div>
+          <div class="text-xs font-mono text-slate-400 whitespace-nowrap">Toronto, ON & Remote</div>
+        </div>
+
+        <!-- Experience 2: CPC Orleans Church -->
+        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col md:flex-row items-start justify-between gap-4">
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <span class="px-2.5 py-0.5 rounded text-xs font-mono bg-purple-500/10 text-purple-400 border border-purple-500/20 font-semibold">2023 – 2025</span>
+              <span class="text-xs text-slate-400 font-mono">CPC Orleans Church</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">Secretary (2024–2025) & IT Committee Member (2023–2024)</h3>
+            <p class="text-xs sm:text-sm text-slate-300 mt-2 max-w-2xl leading-relaxed">
+              Entrusted with official institutional board governance, formal executive meeting minutes, compliance documentation, and digital infrastructure strategy for an established community institution.
+            </p>
+          </div>
+          <div class="text-xs font-mono text-slate-400 whitespace-nowrap">Ottawa, ON, Canada</div>
+        </div>
+
+        <!-- Experience 3: Millennium1 -->
+        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col md:flex-row items-start justify-between gap-4">
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <span class="px-2.5 py-0.5 rounded text-xs font-mono bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 font-semibold">2020 – 2021</span>
+              <span class="text-xs text-slate-400 font-mono">Millennium1Solutions</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">Customer Service Operations Supervisor</h3>
+            <p class="text-xs sm:text-sm text-slate-300 mt-2 max-w-2xl leading-relaxed">
+              Tier-2 escalation lead for complex consumer transaction issues in a fast-paced contact center, diagnosing software friction points and optimizing ticketing procedures to meet SLAs.
+            </p>
+          </div>
+          <div class="text-xs font-mono text-slate-400 whitespace-nowrap">Toronto, ON, Canada</div>
+        </div>
+
+        <!-- Experience 4: FreshCo -->
+        <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 flex flex-col md:flex-row items-start justify-between gap-4">
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <span class="px-2.5 py-0.5 rounded text-xs font-mono bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-semibold">2018 – 2019</span>
+              <span class="text-xs text-slate-400 font-mono">FreshCo (McArthur)</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">Front End Manager & Cash Office Supervisor</h3>
+            <p class="text-xs sm:text-sm text-slate-300 mt-2 max-w-2xl leading-relaxed">
+              Managed daily cash office financial auditing, bank reconciliations, safe balancing, and front-line team supervision with 100% compliance to corporate accounting guidelines.
+            </p>
+          </div>
+          <div class="text-xs font-mono text-slate-400 whitespace-nowrap">Toronto, ON, Canada</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & FOOTER -->
+  <footer class="py-16 bg-slate-950 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="p-8 sm:p-12 rounded-3xl bg-slate-900 border border-slate-800 max-w-3xl mx-auto">
+        <h2 class="text-3xl font-extrabold text-white mb-2">Ready to discuss your next technical delivery?</h2>
+        <p class="text-slate-400 text-sm mb-6 max-w-md mx-auto">
+          Currently interviewing for Solutions Architect, Technical Product Owner, and Delivery Lead roles in Canada.
+        </p>
+
+        <a href="mailto:benjaminbanansos@gmail.com" class="inline-block px-8 py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm transition-all shadow-lg shadow-indigo-600/30">
+          benjaminbanansos@gmail.com
+        </a>
+
+        <div class="mt-4 text-xs font-mono text-slate-400">
+          Toronto, ON, Canada · Full Work Authorization (No Sponsorship Required)
+        </div>
+      </div>
+
+      <div class="mt-12 text-xs font-mono text-slate-400">
+        © 2026 Benjamin Banansos · eCommerce Solutions Architect & Technical Product Owner
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPT DATA & INTERACTION -->
+  <script>
+    const catalog = [
+      {
+        id: "janal",
+        cat: "ecommerce",
+        name: "Janal.ca (Shades4U Inc.)",
+        tagline: "Custom Manufacturing eCommerce with Dimensional-Pricing Engine",
+        role: "Independent Product Owner (Contract)",
+        client: "Shades4U Inc.",
+        metrics: "Dynamic sizing across 10,000+ permutations; Converge HPP payment integration.",
+        tech: ["Vue3/Nuxt", "Django/Postgres", "AWS EC2/S3", "Converge HPP", "Shipnerd 3PL"],
+        challenge: "Handling complex square-inch pricing down to 1/8th inch fractions and resolving 401 unauthorized errors with the Converge payment gateway during cloud migration.",
+        solution: "Structured 15 agile sprints, authored acceptance criteria to eliminate irrational numbers, identified AWS static IP whitelisting as the payment blocker, and guided non-technical owners through merchant dashboard authorization to secure go-live."
+      },
+      {
+        id: "smartdecor",
+        cat: "ecommerce",
+        name: "SmartDecor Store",
+        tagline: "Decoupled Modern Storefront & Secured Admin Inventory Portal",
+        role: "Technical Architect & Prototyper",
+        client: "Retail eCommerce Venture",
+        metrics: "Sub-second CDN image delivery; fully isolated administrative portal.",
+        tech: ["MongoDB (NoSQL)", "Cloudinary API", "Resend Email API", "Hostinger Cloud", "Tailwind CSS"],
+        challenge: "Managing heavy high-resolution catalog media without degrading storefront speed or complicating database updates.",
+        solution: "Built a decoupled architecture separating the customer shop from the /admin portal, integrated Cloudinary's headless API for automated image CDN caching, and automated transactional emails with Resend."
+      },
+      {
+        id: "lacasadelgusto",
+        cat: "hospitality",
+        name: "La Casa Del Gusto",
+        tagline: "High-Volume Dining Platform & Local Search Optimization",
+        role: "Digital Delivery Consultant",
+        client: "Family Restaurant (Ottawa, ON)",
+        metrics: "4.4★ across 227+ Google Reviews; 1460 Merivale Rd, Nepean, ON.",
+        tech: ["WordPress CMS", "Mobile-First Menu", "Local SEO", "Google Maps Integration"],
+        challenge: "Showcasing expansive multi-course menus with seasonal pricing while guaranteeing ultra-fast mobile load times on cellular data.",
+        solution: "Engineered a lightweight mobile-first menu system, integrated local Google search hooks, and trained restaurant staff on real-time menu modifications."
+      },
+      {
+        id: "malabarhouse",
+        cat: "hospitality",
+        name: "Malabar House (malabarhouse.ca)",
+        tagline: "Culinary Portal & Digital Event Catering Funnel",
+        role: "Digital Project Manager",
+        client: "Hospitality Enterprise",
+        metrics: "Significant increase in organic search visibility and digital event bookings.",
+        tech: ["WordPress", "SEO Optimization", "Event Intake Funnel", "CDN Media"],
+        challenge: "Presenting rich cultural visual assets without hurting page performance on mobile devices.",
+        solution: "Optimized image delivery pipelines, implemented structured restaurant schema markup, and streamlined the catering booking intake process."
+      },
+      {
+        id: "mapleblinds",
+        cat: "ecommerce",
+        name: "Maple Blinds (mapleblinds.ca)",
+        tagline: "Custom Window Treatments Catalog & Fabric Swatch Swapper",
+        role: "eCommerce Solutions Consultant",
+        client: "Interior Decor & Blinds",
+        metrics: "Reduced customer sample drop-off by 40% with multi-tier swatch previewing.",
+        tech: ["Catalog Architecture", "Swatch Swapper", "Quote Funnel", "WooCommerce"],
+        challenge: "Managing multi-grade fabric tiers (Classic, Premium, Motorized) and material textures accurately online.",
+        solution: "Designed multi-tier swatch filtering and built an intuitive measurement booking funnel for custom on-site contractor visits."
+      },
+      {
+        id: "phoenixduvietnam",
+        cat: "hospitality",
+        name: "Phoenix Du Vietnam (phoenixduvietnam.co)",
+        tagline: "Bilingual Vietnamese Cuisine & Takeout Hub",
+        role: "Web Delivery Lead",
+        client: "Asian Fusion Restaurant",
+        metrics: "High mobile conversion for takeout dinner rush orders.",
+        tech: ["Bilingual UI (EN/FR)", "Mobile-First Menu", "Delivery Links", "SSL/Hosting"],
+        challenge: "Frictionless menu navigation for guests browsing quickly on phones during peak dining hours.",
+        solution: "Engineered quick-scroll category pills (Pho, Rice, Appetizers), integrated delivery links, and configured automated SSL certificates."
+      },
+      {
+        id: "luxelsolar",
+        cat: "commercial",
+        name: "Luxel Solar (luxelsolar.in)",
+        tagline: "Clean-Tech Commercial Solar Portal & B2B Lead Engine",
+        role: "Solutions Architect & Lead",
+        client: "Renewable Energy Enterprise",
+        metrics: "Automated commercial quote qualification based on kW demand & utility data.",
+        tech: ["B2B Catalog", "Quote Intake Funnel", "CRM Lead Routing", "Technical Specs"],
+        challenge: "Capturing complex technical inputs (roof area, power consumption, transformer specs) directly from business owners.",
+        solution: "Designed a multi-step dynamic solar quote intake form that pre-qualifies commercial prospects before routing data to sales engineers."
+      },
+      {
+        id: "ccchomecare",
+        cat: "commercial",
+        name: "CCC Home Care (ccchomecare.ca)",
+        tagline: "Healthcare & Senior Assistance Service Portal",
+        role: "Digital Solutions Consultant",
+        client: "Home Care & Nursing Services",
+        metrics: "100% WCAG-accessible contrast ratios for seniors and family caregivers.",
+        tech: ["WCAG Accessible", "Service Intake Funnel", "Encrypted Form", "WordPress"],
+        challenge: "Designing an interface that stressed family caregivers and seniors can navigate effortlessly.",
+        solution: "Applied high-contrast typography, large touch targets, simplified care tiers, and encrypted emergency contact routing."
+      },
+      {
+        id: "isokanyoruba",
+        cat: "commercial",
+        name: "Isokan Yoruba Ottawa (isokanyoruba.org)",
+        tagline: "Community Cultural Portal & Executive Board Governance",
+        role: "Technical Project Manager",
+        client: "Non-Profit Cultural Association",
+        metrics: "Translated a 53-page legal constitution into a 7-page interactive portal.",
+        tech: ["Information Architecture", "Figma", "WordPress RBAC", "DNS TXT/A-Records"],
+        challenge: "Managing conflicting feedback from a 5-member board while migrating legacy DNS registrar records.",
+        solution: "Structured a clear Site Map, led Figma reviews, configured Role-Based Access Controls to prevent accidental site breakage, and executed domain cutover with zero downtime."
+      },
+      {
+        id: "cpcorleans",
+        cat: "commercial",
+        name: "CPC Orleans Church",
+        tagline: "IT Committee & Board Secretariat Governance",
+        role: "Secretary (2024–2025) & IT Committee (2023–2024)",
+        client: "Community Institution (Ottawa, ON)",
+        metrics: "Directed IT systems modernization and official board governance across 2 years.",
+        tech: ["IT Governance", "Digital Infrastructure", "Board Secretariat", "Compliance"],
+        challenge: "Aligning institutional board decisions with technical modernizations and securing church digital assets.",
+        solution: "Evaluated administrative tools, guided digital infrastructure planning, and managed formal executive meeting minutes and board compliance records."
+      },
+      {
+        id: "godigitally",
+        cat: "commercial",
+        name: "Go Digitally (godigitally.ca)",
+        tagline: "Independent Digital Delivery & Web Consulting Practice",
+        role: "Founder & Solutions Architect",
+        client: "Digital Consultancy",
+        metrics: "Shipped 15+ external client web projects with 100% on-time delivery.",
+        tech: ["Discovery Frameworks", "Full-Stack Web Delivery", "DevOps/DNS", "Agile Sprints"],
+        challenge: "Managing client scoping, budget enforcement, and technical deployment without an internal agency safety net.",
+        solution: "Standardized delivery playbooks, utilizing automated tooling and rigid Definitions of Ready (DoR) to eliminate scope creep."
+      },
+      {
+        id: "confidential",
+        cat: "commercial",
+        name: "Confidential Enterprise Scripts & Tools",
+        tagline: "Custom Operational Automation & Database Scripts",
+        role: "Technical Solutions Specialist",
+        client: "Internal Enterprise Operations",
+        metrics: "Eliminated hours of manual data re-entry across inventory and customer tracking.",
+        tech: ["Python Automation", "Data Cleansing", "API Webhooks", "Process Optimization"],
+        challenge: "Disparate legacy systems requiring manual Excel data transfers between accounting, inventory, and customer databases.",
+        solution: "Engineered automated data ingestion and validation scripts, ensuring accurate record syncing and eliminating human auditing errors."
+      }
+    ];
+
+    function renderCatalog(items) {
+      const grid = document.getElementById("systems-grid");
+      grid.innerHTML = items.map(item => `
+        <div class="group p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-indigo-500/50 hover:shadow-xl hover:shadow-indigo-500/10 transition-all flex flex-col justify-between cursor-pointer" onclick="openModal('${item.id}')">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-0.5 rounded-full text-[11px] font-mono uppercase tracking-wider bg-slate-950 border border-slate-800 text-slate-400">
+                ${item.client}
+              </span>
+              <span class="text-xs text-indigo-400 font-mono group-hover:translate-x-0.5 transition-transform">Inspect ➔</span>
+            </div>
+            <h3 class="text-lg font-bold text-white group-hover:text-indigo-300 transition-colors">
+              ${item.name}
+            </h3>
+            <p class="text-xs font-semibold text-amber-400/90 mt-1 mb-2">
+              ${item.tagline}
+            </p>
+            <div class="p-2.5 rounded-lg bg-slate-950 border border-slate-800 mb-4 text-[11px] font-mono text-emerald-400">
+              ✦ ${item.metrics}
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-1.5 pt-3 border-t border-slate-800/80">
+            ${item.tech.slice(0, 3).map(t => `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-slate-950 border border-slate-800 text-slate-400">${t}</span>`).join('')}
+            ${item.tech.length > 3 ? `<span class="px-1.5 py-0.5 rounded text-[10px] font-mono text-slate-400">+${item.tech.length - 3}</span>` : ''}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function filterCatalog(category) {
+      document.querySelectorAll('.cat-btn').forEach(btn => {
+        btn.classList.remove('bg-indigo-600', 'text-white');
+        btn.classList.add('text-slate-400');
+      });
+      event.target.classList.add('bg-indigo-600', 'text-white');
+      event.target.classList.remove('text-slate-400');
+
+      if (category === 'all') {
+        renderCatalog(catalog);
+      } else {
+        renderCatalog(catalog.filter(p => p.cat === category));
+      }
+    }
+
+    function openModal(id) {
+      const item = catalog.find(p => p.id === id);
+      if (!item) return;
+
+      const body = document.getElementById("modal-body");
+      body.innerHTML = `
+        <div class="mb-6">
+          <div class="flex items-center gap-2 mb-2">
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-mono bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
+              ${item.client}
+            </span>
+            <span class="text-xs font-mono text-slate-400">Role: ${item.role}</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-white">${item.name}</h2>
+          <p class="text-sm font-semibold text-amber-400 mt-1">${item.tagline}</p>
+        </div>
+
+        <div class="p-3.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs sm:text-sm font-mono mb-6">
+          <strong>Key Metric / Result:</strong> ${item.metrics}
+        </div>
+
+        <div class="space-y-4 text-xs sm:text-sm text-slate-300 leading-relaxed mb-6">
+          <div>
+            <h4 class="font-bold text-xs font-mono uppercase tracking-wider text-rose-400 mb-1">The Real-World Challenge</h4>
+            <p class="text-slate-400">${item.challenge}</p>
+          </div>
+          <div>
+            <h4 class="font-bold text-xs font-mono uppercase tracking-wider text-indigo-400 mb-1">The Architecture & Solution Delivered</h4>
+            <p class="text-slate-400">${item.solution}</p>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-xs font-mono uppercase tracking-wider text-slate-400 mb-2">Technologies & System Integrations</h4>
+          <div class="flex flex-wrap gap-2">
+            ${item.tech.map(t => `<span class="px-2.5 py-1 rounded-md text-xs font-mono bg-slate-950 border border-slate-700 text-indigo-300">${t}</span>`).join('')}
+          </div>
+        </div>
+      `;
+
+      document.getElementById("detail-modal").classList.remove("hidden");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeModal() {
+      document.getElementById("detail-modal").classList.add("hidden");
+      document.body.style.overflow = "auto";
+    }
+
+    // Dismiss modal on background click or Esc
+    document.getElementById("detail-modal").addEventListener("click", function(e) {
+      if (e.target === this) closeModal();
+    });
+    document.addEventListener("keydown", function(e) {
+      if (e.key === "Escape") closeModal();
+    });
+
+    // Initial render
+    renderCatalog(catalog);
+  </script>
+</body>
+</html>

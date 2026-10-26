@@ -40,7 +40,8 @@ When GitHub Pages is enabled on this repository, this portfolio is live at:
 9. **Phoenix Du Vietnam (`phoenixduvietnam.co`)** *(2024)* — *Web Delivery Lead*
    * Delivered original bilingual mobile ordering hub in 2024 (Client transitioned to a different website post-contract).
 10. **CCC Home Care (`ccchomecare.ca`)** *(2023)* — *Digital Solutions Consultant*
-   * WCAG-compliant accessible healthcare and senior care booking portal.
+   * Delivered original accessible healthcare portal in 2023 (Client transitioned to a different website post-contract).
+   * WCAG-compliant accessible contrast ratios and encrypted intake routing.
 11. **Go Digitally (`godigitally.ca`)** *(2022 – Present)* — *Founder & Lead Solutions Architect*
    * Digital delivery & consulting practice with 15+ external client implementations.
 12. **Confidential Enterprise Automation Tools** *(2023 – Present)* — *Technical Solutions Specialist*

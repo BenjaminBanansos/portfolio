@@ -27,7 +27,7 @@ Live Interactive Portfolio:
 | System | Role & Timeline | Core Tech & Architecture | Primary Achievement / Metric |
 | :--- | :--- | :--- | :--- |
 | **Luxel Solar** | Solutions Architect & Lead (2026) | B2B Product Catalog, Dynamic Solar Quote Estimation Intake, CRM Routing | Automated B2B commercial quote qualification based on kW demand & utility data. |
-| **CCC Home Care** | Digital Solutions Consultant (2023) | WCAG Accessibility Contrast, Service Booking Funnel, Encrypted Intake | 100% WCAG-accessible contrast ratios tailored for seniors and family caregivers. |
+| **CCC Home Care** | Digital Solutions Consultant (2023) | WCAG Accessibility Contrast, Service Booking Funnel, Encrypted Intake | 100% WCAG-accessible contrast ratios. Delivered original accessible portal in 2023; website transitioned post-contract. |
 | **Isokan Yoruba Ottawa** | Technical Project Manager (2025) | Information Architecture, Figma Wireframes, WordPress CMS RBAC, DNS TXT/A-records | Translated a 53-page constitution into a 7-page interactive community portal. |
 
 ### 4. Agency Operations & Institutional Governance

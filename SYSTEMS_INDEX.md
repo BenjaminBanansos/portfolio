@@ -5,6 +5,10 @@ This document outlines the detailed breakdown and systems catalog for **Benjamin
 Live Interactive Portfolio:
 👉 **[https://benjaminbanansos.github.io/portfolio/](https://benjaminbanansos.github.io/portfolio/)**
 
+### 📚 Technical Preparation & Engineering Reference Books
+- 📘 **[Technical Mastery & Practice Workbook](TECHNICAL_MASTERY_AND_PRACTICE_BOOK.md)**: First-principles engineering breakdown, under-the-hood plumbing (DNS, Elastic IPs, Converge 401s, Floating Point bugs, Headless CDNs, WCAG), and interactive role-play drills.
+- 📙 **[Amazon-Level Technical Interview Handbook](AMAZON_LEVEL_INTERVIEW_HANDBOOK.md)**: 50-page comprehensive questions, deep technical answers with "background mechanics", and follow-up scenarios.
+
 ---
 
 ## 🏛️ Comprehensive Projects & Systems Catalog

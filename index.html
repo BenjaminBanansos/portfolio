@@ -363,6 +363,7 @@
         tagline: "Custom Manufacturing eCommerce with Dimensional-Pricing Engine",
         role: "Independent Product Owner (Contract)",
         client: "Shades4U Inc.",
+        year: "2023 – 2024",
         metrics: "Dynamic sizing across 10,000+ permutations; Converge HPP payment integration.",
         tech: ["Vue3/Nuxt", "Django/Postgres", "AWS EC2/S3", "Converge HPP", "Shipnerd 3PL"],
         challenge: "Handling complex square-inch pricing down to 1/8th inch fractions and resolving 401 unauthorized errors with the Converge payment gateway during cloud migration.",
@@ -375,6 +376,7 @@
         tagline: "Decoupled Modern Storefront & Secured Admin Inventory Portal",
         role: "Technical Architect & Prototyper",
         client: "Retail eCommerce Venture",
+        year: "2026",
         metrics: "Sub-second CDN image delivery; fully isolated administrative portal.",
         tech: ["MongoDB (NoSQL)", "Cloudinary API", "Resend Email API", "Hostinger Cloud", "Tailwind CSS"],
         challenge: "Managing heavy high-resolution catalog media without degrading storefront speed or complicating database updates.",
@@ -385,8 +387,10 @@
         cat: "hospitality",
         name: "La Casa Del Gusto",
         tagline: "High-Volume Dining Platform & Local Search Optimization",
-        role: "Digital Delivery Consultant",
+        role: "Technical Consultant & Digital Marketing",
         client: "Family Restaurant (Ottawa, ON)",
+        year: "2019",
+        statusNote: "Contract Completed (2019) · Delivered core launch platform; website transitioned post-contract.",
         metrics: "4.4★ across 227+ Google Reviews; 1460 Merivale Rd, Nepean, ON.",
         tech: ["WordPress CMS", "Mobile-First Menu", "Local SEO", "Google Maps Integration"],
         challenge: "Showcasing expansive multi-course menus with seasonal pricing while guaranteeing ultra-fast mobile load times on cellular data.",
@@ -399,6 +403,8 @@
         tagline: "Culinary Portal & Digital Event Catering Funnel",
         role: "Digital Project Manager",
         client: "Hospitality Enterprise",
+        year: "2019",
+        statusNote: "Contract Completed (2019) · Delivered original brand & reservation platform; website transitioned post-contract.",
         metrics: "Significant increase in organic search visibility and digital event bookings.",
         tech: ["WordPress", "SEO Optimization", "Event Intake Funnel", "CDN Media"],
         challenge: "Presenting rich cultural visual assets without hurting page performance on mobile devices.",
@@ -411,6 +417,7 @@
         tagline: "Custom Window Treatments Catalog & Fabric Swatch Swapper",
         role: "eCommerce Solutions Consultant",
         client: "Interior Decor & Blinds",
+        year: "2023",
         metrics: "Reduced customer sample drop-off by 40% with multi-tier swatch previewing.",
         tech: ["Catalog Architecture", "Swatch Swapper", "Quote Funnel", "WooCommerce"],
         challenge: "Managing multi-grade fabric tiers (Classic, Premium, Motorized) and material textures accurately online.",
@@ -423,6 +430,8 @@
         tagline: "Bilingual Vietnamese Cuisine & Takeout Hub",
         role: "Web Delivery Lead",
         client: "Asian Fusion Restaurant",
+        year: "2024",
+        statusNote: "Contract Completed (2024) · Delivered original bilingual portal; website transitioned post-contract.",
         metrics: "High mobile conversion for takeout dinner rush orders.",
         tech: ["Bilingual UI (EN/FR)", "Mobile-First Menu", "Delivery Links", "SSL/Hosting"],
         challenge: "Frictionless menu navigation for guests browsing quickly on phones during peak dining hours.",
@@ -435,6 +444,7 @@
         tagline: "Clean-Tech Commercial Solar Portal & B2B Lead Engine",
         role: "Solutions Architect & Lead",
         client: "Renewable Energy Enterprise",
+        year: "2026",
         metrics: "Automated commercial quote qualification based on kW demand & utility data.",
         tech: ["B2B Catalog", "Quote Intake Funnel", "CRM Lead Routing", "Technical Specs"],
         challenge: "Capturing complex technical inputs (roof area, power consumption, transformer specs) directly from business owners.",
@@ -447,6 +457,7 @@
         tagline: "Healthcare & Senior Assistance Service Portal",
         role: "Digital Solutions Consultant",
         client: "Home Care & Nursing Services",
+        year: "2023",
         metrics: "100% WCAG-accessible contrast ratios for seniors and family caregivers.",
         tech: ["WCAG Accessible", "Service Intake Funnel", "Encrypted Form", "WordPress"],
         challenge: "Designing an interface that stressed family caregivers and seniors can navigate effortlessly.",
@@ -459,6 +470,7 @@
         tagline: "Community Cultural Portal & Executive Board Governance",
         role: "Technical Project Manager",
         client: "Non-Profit Cultural Association",
+        year: "2025",
         metrics: "Translated a 53-page legal constitution into a 7-page interactive portal.",
         tech: ["Information Architecture", "Figma", "WordPress RBAC", "DNS TXT/A-Records"],
         challenge: "Managing conflicting feedback from a 5-member board while migrating legacy DNS registrar records.",
@@ -471,6 +483,7 @@
         tagline: "IT Committee & Board Secretariat Governance",
         role: "Secretary (2024–2025) & IT Committee (2023–2024)",
         client: "Community Institution (Ottawa, ON)",
+        year: "2023 – 2025",
         metrics: "Directed IT systems modernization and official board governance across 2 years.",
         tech: ["IT Governance", "Digital Infrastructure", "Board Secretariat", "Compliance"],
         challenge: "Aligning institutional board decisions with technical modernizations and securing church digital assets.",
@@ -483,6 +496,7 @@
         tagline: "Independent Digital Delivery & Web Consulting Practice",
         role: "Founder & Solutions Architect",
         client: "Digital Consultancy",
+        year: "2022 – Present",
         metrics: "Shipped 15+ external client web projects with 100% on-time delivery.",
         tech: ["Discovery Frameworks", "Full-Stack Web Delivery", "DevOps/DNS", "Agile Sprints"],
         challenge: "Managing client scoping, budget enforcement, and technical deployment without an internal agency safety net.",
@@ -495,6 +509,7 @@
         tagline: "Custom Operational Automation & Database Scripts",
         role: "Technical Solutions Specialist",
         client: "Internal Enterprise Operations",
+        year: "2023 – Present",
         metrics: "Eliminated hours of manual data re-entry across inventory and customer tracking.",
         tech: ["Python Automation", "Data Cleansing", "API Webhooks", "Process Optimization"],
         challenge: "Disparate legacy systems requiring manual Excel data transfers between accounting, inventory, and customer databases.",
@@ -508,9 +523,14 @@
         <div class="group p-6 rounded-2xl bg-slate-900 border border-slate-800 hover:border-indigo-500/50 hover:shadow-xl hover:shadow-indigo-500/10 transition-all flex flex-col justify-between cursor-pointer" onclick="openModal('${item.id}')">
           <div>
             <div class="flex items-center justify-between gap-2 mb-3">
-              <span class="px-2.5 py-0.5 rounded-full text-[11px] font-mono uppercase tracking-wider bg-slate-950 border border-slate-800 text-slate-400">
-                ${item.client}
-              </span>
+              <div class="flex items-center gap-1.5 flex-wrap">
+                <span class="px-2.5 py-0.5 rounded-full text-[11px] font-mono uppercase tracking-wider bg-slate-950 border border-slate-800 text-slate-300">
+                  ${item.client}
+                </span>
+                <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-indigo-500/10 text-indigo-300 border border-indigo-500/20 font-semibold">
+                  ${item.year}
+                </span>
+              </div>
               <span class="text-xs text-indigo-400 font-mono group-hover:translate-x-0.5 transition-transform">Inspect ➔</span>
             </div>
             <h3 class="text-lg font-bold text-white group-hover:text-indigo-300 transition-colors">
@@ -519,6 +539,11 @@
             <p class="text-xs font-semibold text-amber-400/90 mt-1 mb-2">
               ${item.tagline}
             </p>
+            ${item.statusNote ? `
+              <div class="p-2 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-300 text-[10px] font-mono mb-3">
+                ℹ️ ${item.statusNote}
+              </div>
+            ` : ''}
             <div class="p-2.5 rounded-lg bg-slate-950 border border-slate-800 mb-4 text-[11px] font-mono text-emerald-400">
               ✦ ${item.metrics}
             </div>
@@ -554,15 +579,24 @@
       const body = document.getElementById("modal-body");
       body.innerHTML = `
         <div class="mb-6">
-          <div class="flex items-center gap-2 mb-2">
+          <div class="flex items-center gap-2 mb-2 flex-wrap">
             <span class="px-2.5 py-0.5 rounded-full text-xs font-mono bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
               ${item.client}
+            </span>
+            <span class="px-2 py-0.5 rounded text-xs font-mono bg-slate-800 text-amber-300 border border-amber-500/20 font-semibold">
+              ${item.year}
             </span>
             <span class="text-xs font-mono text-slate-400">Role: ${item.role}</span>
           </div>
           <h2 class="text-2xl sm:text-3xl font-extrabold text-white">${item.name}</h2>
           <p class="text-sm font-semibold text-amber-400 mt-1">${item.tagline}</p>
         </div>
+
+        ${item.statusNote ? `
+          <div class="p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-300 text-xs font-mono mb-4">
+            <strong>Client Status Note:</strong> ${item.statusNote}
+          </div>
+        ` : ''}
 
         <div class="p-3.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs sm:text-sm font-mono mb-6">
           <strong>Key Metric / Result:</strong> ${item.metrics}

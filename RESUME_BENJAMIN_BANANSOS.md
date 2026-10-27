@@ -38,7 +38,7 @@
 * Directed end-to-end testing, user journey mapping, and merchant dashboard configuration, reducing customer quote drop-off by ~65% and driving record self-serve eCommerce revenue.
 
 #### **FRESHCO (SOBEYS / CANADIAN RETAIL)** — Ottawa / Toronto, ON  
-**Retail Operations & Cash Office Auditing Clerk** | *2018 – 2022*  
+**Front End Manager & Cash Office Auditing Supervisor** | *2018 – 2019*  
 *Directed frontline financial reconciliation, store-level pricing auditing, and POS transaction compliance within a high-volume Canadian grocery retail environment.*
 * Conducted daily cash register auditing, ledger reconciliation, and electronic drawer balancing across multiple checkout lanes, consistently maintaining zero variance against POS reporting.
 * Verified weekly promotional pricing updates, flyer markdowns, shelf tag compliance, and barcode scanning accuracy against master pricing data, preventing cashier scanning discrepancies.

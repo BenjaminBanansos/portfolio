@@ -6,6 +6,7 @@ Live Interactive Portfolio:
 👉 **[https://benjaminbanansos.github.io/portfolio/](https://benjaminbanansos.github.io/portfolio/)**
 
 ### 📚 Technical Preparation & Engineering Reference Books
+- 📗 **[The $120,000 Technical BA & Product Owner Hands-On Masterclass](TECHNICAL_BA_HANDS_ON_MASTERCLASS.md)**: Step-by-step production Jira BDD user story templates, API data mapping dictionaries, SQL auditing queries, UAT test matrices, and stakeholder scope defense scripts.
 - 📘 **[Technical Mastery & Practice Workbook](TECHNICAL_MASTERY_AND_PRACTICE_BOOK.md)**: First-principles engineering breakdown, under-the-hood plumbing (DNS, Elastic IPs, Converge 401s, Floating Point bugs, Headless CDNs, WCAG), and interactive role-play drills.
 - 📙 **[Amazon-Level Technical Interview Handbook](AMAZON_LEVEL_INTERVIEW_HANDBOOK.md)**: 50-page comprehensive questions, deep technical answers with "background mechanics", and follow-up scenarios.
 
